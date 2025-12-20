@@ -1,0 +1,13 @@
+This project analyzes the Portuguese Bank Marketing dataset to understand customer behavior and predict term deposit subscriptions.
+Exploratory Data Analysis revealed that call duration, timing of contact, and customer profile strongly influence campaign success,
+while repeated calls reduce effectiveness.
+After data cleaning, encoding, and preprocessing, multiple classification models were trained and evaluated.
+Among them, Random Forest performed best, offering a strong balance between precision and recall despite class imbalance.
+Overall, the study shows that combining data-driven insights with targeted,
+human-centric marketing strategies can significantly improve campaign outcomes.
+
+
+This project analyzes the Portuguese Bank Marketing dataset to predict term deposit subscriptions.
+EDA showed that call duration, contact timing, and customer profile strongly impact success.
+After preprocessing and model comparison, Random Forest performed best.
+The results highlight the value of targeted, data-driven marketing strategies.
