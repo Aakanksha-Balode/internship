@@ -3,3 +3,91 @@ Task 1 :- Prepare a complete data analysis report on the given data.
 Task 2 :- Create a model which can classify the three major attacking diseases of rice plants like leaf blast, bacterial blight and brown spot.
 
 Task 3 :- Analyze various techniques like Data Augmentation, etc and create a report on that.
+
+🌾 Rice Leaf Disease Detection
+
+Project Overview
+
+Rice leaf diseases reduce crop yield and affect food production.
+This project uses Deep Learning and Computer Vision to automatically detect rice leaf diseases from images.
+
+We classify rice leaves into three disease categories using CNN.
+
+Analyze rice leaf image data :- 
+
+Build an image classification model
+
+Apply data augmentation
+
+Compare multiple models
+
+Deploy the model as a web application
+
+🦠 Disease Classes :- 
+
+Leaf Smut
+
+Brown Spot
+
+Bacterial Leaf Blight
+
+Dataset Information
+
+Total images: 120
+
+Number of classes: 3
+
+Images per class: 40
+
+Image format: JPG
+
+Dataset is balanced
+
+🛠️ Technologies Used :-
+
+Python
+
+Jupyter Notebook
+
+TensorFlow / Keras
+
+NumPy
+
+Matplotlib
+
+| Model              | Description                        |
+| ------------------ | ---------------------------------- |
+| CNN                | Basic convolutional neural network |
+| CNN + Augmentation | Improved CNN using augmentation    |
+
+| Model              | Accuracy   |
+| ------------------ | ---------- |
+| Basic CNN          | ~75%       |
+| CNN + Augmentation | ~85%       |
+
+Data Augmentation Techniques
+
+Image rotation
+
+Zooming
+
+Horizontal flipping
+
+Rescaling
+
+Purpose:
+To reduce overfitting and improve model generalization.
+
+
+| Challenge             | Solution                    |
+| --------------------- | --------------------------- |
+| Small dataset         | Data augmentation           |
+| Overfitting           | Dropout + transfer learning |
+| Different image sizes | Image resizing              |
+
+
+
+✅ Conclusion :-
+
+This project successfully demonstrates how deep learning can be used to detect rice leaf diseases efficiently.
+high accuracy and is suitable for real-world deployment.
